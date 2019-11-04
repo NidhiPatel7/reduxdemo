@@ -31,7 +31,8 @@ class Todo extends Component{
           </div>
           <div className="todo-priority">
 
-            { this.props.priority}
+            { this.props.priority} | BY : {this.props.username} 
+            {/* username is come frome routeAddTodo.js file  */}
 
           </div>
         </div>
